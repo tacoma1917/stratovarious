@@ -114,7 +114,7 @@ document.getElementById('timeid').addEventListener('click', function(){
     document.getElementById('timeid').innerHTML = time;
 });
 
- function2(){
+ function function2(){
     g +=1;
     const tracklist = document.getElementsByClassName('StratDestiny');
     if (g % 2 != 0){ tracklist[0].style.display = 'block';
@@ -124,5 +124,5 @@ document.getElementById('timeid').addEventListener('click', function(){
     tracklist[0].style.display = 'none';
     tracklist[0].style.maxHeight = null;
 
-};
+}};
 
