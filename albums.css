@@ -1,0 +1,116 @@
+body {
+    background-color: beige;
+    font-family: 'Finlandica', sans-serif;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 2em;
+    background-color: lightgray;
+    padding-bottom: 2em;
+    color: #154c79;
+    position: relative;
+    max-height: 25em;
+    max-width: 100%;
+    top: -1.35em;
+    
+   
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0.9375em;
+   
+}
+
+button {
+    height: 134px;
+    width: 134px;
+    
+}
+
+
+
+
+.StratFrightNight {
+   display: none;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s ease-out;
+   transition: max-height null ease-in;
+   
+}
+
+.StratTwlight {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    transition: max-height null ease-in;
+
+}
+
+.StartDreamspace {
+  display: none;
+  max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    transition: max-height null ease-in;
+
+}
+
+.secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.thirdrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.StratFourth {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    transition: max-height null ease-in;
+}
+
+.StratEpisodes {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 05.s ease-out;
+    transition: max-height null ease-in;
+}
+
+.spotify {
+    border-radius: 50%;
+}
+.apple {
+    border-radius: 50%;
+}
+
+.band {
+    border-radius: 50%;
+}
+
+.bottomline {
+    margin-top: .9345em;
+}
+
+#dateid {
+    text-align: center;
+}
+
+footer {
+    background-color: beige;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
