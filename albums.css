@@ -107,6 +107,11 @@ button {
     text-align: center;
 }
 
+#timeid {
+    text-align: center;
+    margin-top: .5em;
+}
+
 footer {
     background-color: beige;
     margin-top: 3em;
