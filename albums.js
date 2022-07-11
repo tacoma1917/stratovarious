@@ -8,7 +8,7 @@ year = dateObject.getFullYear();
 month = dateObject.getMonth() + 1;
 day = dateObject.getDate();
 date = "Today's date is " + day + "/" + month + "/" + year;
-
+time = dateObject.toLocaleTimeString();
 
 function FrightNight(){
     const tracklist = document.getElementsByClassName('StratFrightNight');
