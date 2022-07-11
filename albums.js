@@ -92,3 +92,7 @@ function Episodes() {
 document.getElementById('dateid').addEventListener('click', function(){
     document.getElementById('dateid').innerHTML = date;
 });
+
+document.getElementById('timeid').addEventListener('click', function(){
+    document.getElementById('timeid').innerHTML = time;
+});
