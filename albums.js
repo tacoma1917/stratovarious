@@ -130,8 +130,6 @@ document.getElementById('timeid').addEventListener('click', function(){
 
 }
 
-
-
 document.getElementById('button8').addEventListener('click', function(){
  h +=1;
  const tracklist = document.getElementsByClassName('StratInfinite');
