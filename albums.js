@@ -118,8 +118,7 @@ document.getElementById('timeid').addEventListener('click', function(){
     let time = dateObject.toLocaleTimeString();
     document.getElementById('timeid').innerHTML = time;
 });
-
-document.getElementById('button7').addEventListener('click', function(){
+ function function7(){
     j +=1;
     const tracklist = document.getElementsByClassName('StratDestiny');
     if (j % 2 != 0){ tracklist[0].style.display = 'block';
