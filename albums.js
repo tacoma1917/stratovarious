@@ -128,7 +128,7 @@ document.getElementById('timeid').addEventListener('click', function(){
     tracklist[0].style.display = 'none';
     tracklist[0].style.maxHeight = null;
 
-};
+}
 
 
 
